@@ -63,7 +63,7 @@
 /******/ 	}
 
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "f58fbe04af148f13738d"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "15cabe6ae79f3284730a"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
 
@@ -583,7 +583,7 @@
 
 	__webpack_require__(1);
 	__webpack_require__(75);
-	module.exports = __webpack_require__(77);
+	(function webpackMissingModule() { throw new Error("Cannot find module \"./src/index.js\""); }());
 
 
 /***/ },
@@ -8401,23 +8401,6 @@
 		}
 	};
 
-
-/***/ },
-/* 77 */
-/***/ function(module, exports) {
-
-	'use strict';
-
-	console.log('React is up and running!');
-	;
-
-	var _temp = function () {
-	  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-	    return;
-	  }
-	}();
-
-	;
 
 /***/ }
 /******/ ]);
